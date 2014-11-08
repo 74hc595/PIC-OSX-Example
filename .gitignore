@@ -1,0 +1,7 @@
+*.asm
+*.cod
+*.lst
+*.hex
+*.o
+MPLABXLog.*
+*.swp

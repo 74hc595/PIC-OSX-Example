@@ -39,4 +39,4 @@ error `"Your PICkit 3 firmware version 01.22.08 is too old. You must have
 firmware version 01.26.10 or higher to use MPLAB X."` Attempts to update the
 firmware through MPLAB X on a Mac also failed. Sadly, the only way I was able
 to fix this was with a Windows computer. Download the [PICkit 3 Standalone Programmer](http://ww1.microchip.com/downloads/en/DeviceDoc/PICkit_3_Programmer_1_0_Setup_A.zip)
-executable for Windows. After setup, the directory `C:\Program Files\Microchip\PICkit 3\` contains a firmware file named `PK3FW_xxxxxx.jam`. After using `PICkit 3.exe` to upgrade the firmware, it should be usable from Mac OS X.
+executable for Windows. After setup, the directory `C:\Program Files\Microchip\PICkit 3\` contains a firmware file named `PK3FW_xxxxxx.jam`. After using `PICkit 3.exe` to upgrade the firmware, it should be usable from Mac OS X. Note: the application will not work when run from Wine, as Wine does not support custom USB devices.
